@@ -22,6 +22,9 @@ body {
     background-color: var(--color-bg);
     color: var(--color-text);
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* garantit que le corps occupe toute la hauteur de la fenêtre */
 }
 
 header {
