@@ -122,6 +122,7 @@ footer {
     padding: 1rem;
     text-align: center;
     font-size: 0.9rem;
+    margin-top: auto; /* force le footer à rester collé en bas */
 }
 
 @media (max-width: 600px) {
