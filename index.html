@@ -3,191 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Agent IA</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #121212; /* Fond sombre */
-            color: #ffffff; /* Texte blanc par défaut */
-            line-height: 1.6;
-            overflow-x: hidden; /* Empêche le scroll horizontal */
-        }
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px 0;
-        }
-        /* Hero Section */
-        .hero {
-            height: 80vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            background: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)); /* Assure la lisibilité sur fond sombre */
-            padding: 0 20px;
-        }
-        .hero h1 {
-            font-size: 4rem;
-            margin-bottom: 15px;
-            color: #ffffff;
-            font-weight: 600;
-        }
-        .hero p {
-            font-size: 1.5rem;
-            margin-bottom: 30px;
-            color: #cccccc;
-        }
-        .hero .cta-button {
-            display: inline-block;
-            background-color: #007bff; /* Bleu électrique */
-            color: #ffffff;
-            padding: 15px 30px;
-            text-decoration: none;
-            font-size: 1.2rem;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-            border: none;
-            cursor: pointer;
-        }
-        .hero .cta-button:hover {
-            background-color: #0056b3; /* Bleu plus foncé au survol */
-        }
-
-        /* Features Section */
-        .features {
-            padding: 60px 0;
-            text-align: center;
-        }
-        .features h2 {
-            font-size: 2.5rem;
-            margin-bottom: 40px;
-            color: #ffffff;
-            font-weight: 600;
-        }
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-        }
-        .feature-card {
-            background-color: #1e1e1e; /* Fond carte légèrement plus clair */
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .feature-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 25px rgba(0, 123, 255, 0.2); /* Ombre bleue au survol */
-        }
-        .feature-card .icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            color: #007bff; /* Icônes bleues */
-        }
-        .feature-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
-            color: #ffffff;
-            font-weight: 600;
-        }
-        .feature-card p {
-            font-size: 1rem;
-            color: #cccccc;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #1e1e1e; /* Fond footer légèrement plus clair */
-            color: #aaaaaa;
-            text-align: center;
-            padding: 30px 0;
-            font-size: 0.9rem;
-            border-top: 1px solid #2a2a2a; /* Ligne séparatrice subtile */
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 3rem;
-            }
-            .hero p {
-                font-size: 1.2rem;
-            }
-            .features-grid {
-                grid-template-columns: 1fr; /* 3 cartes en colonne sur petits écrans */
-            }
-            .feature-card {
-                margin: 0 20px; /* Ajoute un peu de marge latérale */
-            }
-        }
-        @media (max-width: 480px) {
-            .hero h1 {
-                font-size: 2.5rem;
-            }
-            .hero p {
-                font-size: 1rem;
-            }
-            .hero .cta-button {
-                padding: 12px 25px;
-                font-size: 1rem;
-            }
-            .features h2 {
-                font-size: 2rem;
-            }
-            .feature-card h3 {
-                font-size: 1.2rem;
-            }
-        }
-    </style>
+    <title>LOMA TOMBOLA</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="hero">
-        <div class="container">
-            <h1>Mon Agent IA</h1>
-            <p>Propulsé par l'intelligence artificielle</p>
-            <button class="cta-button">Commencer</button>
-        </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <section class="features">
-        <div class="container">
+    <main>
+        <section class="hero">
+            <h1>LOMA TOMBOLA</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <button>En savoir plus</button>
+        </section>
+        <section class="features">
             <h2>Fonctionnalités</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="icon">🤖</div>
-                    <h3>IA avancée</h3>
-                    <p>Bénéficiez des dernières avancées en intelligence artificielle pour des résultats optimaux.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">⚡</div>
-                    <h3>Ultra rapide</h3>
-                    <p>Des réponses et des traitements instantanés pour une productivité maximale.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">🔒</div>
-                    <h3>Sécurisé</h3>
-                    <p>Vos données sont protégées avec les normes de sécurité les plus strictes.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
+            <ul>
+                <li><i class="fas fa-check"></i> Fonctionnalité 1</li>
+                <li><i class="fas fa-check"></i> Fonctionnalité 2</li>
+                <li><i class="fas fa-check"></i> Fonctionnalité 3</li>
+            </ul>
+        </section>
+    </main>
     <footer>
-        <div class="container">
-            <p>&copy; 2026 Mon Agent IA. Tous droits réservés.</p>
-        </div>
+        <p>&copy; 2023 LOMA TOMBOLA</p>
     </footer>
 </body>
-</html><!DOCTYPE html>
-<html><head><title>Mon site</title></head>
-<body><h1>Site en construction...</h1></body>
 </html>
