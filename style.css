@@ -197,6 +197,47 @@ header {
     text-align: center;
 }
 
+/* CONTACT FORM */
+.contact-form {
+    max-width: 600px;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    gap: 1rem;
+    background: var(--color-white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+/* Le bouton d’envoi utilise déjà la classe .btn-primary définie plus haut */
+
 /* FOOTER */
 footer {
     background-color: var(--color-primary);
