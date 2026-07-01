@@ -1,71 +1,111 @@
+:root {
+    --color-bg: #f2f2f2;
+    --color-primary: #333;
+    --color-secondary: #555;
+    --color-white: #fff;
+    --color-text: #333;
+    --color-muted: #777;
+    --font-base: 16px;
+    --font-family: 'Arial', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: var(--font-base);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 1rem;
 }
 
-nav ul {
+.nav-list {
+    display: flex;
+    justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
-nav li {
-    float: left;
+.nav-item {
+    margin: 0 1rem;
 }
 
-nav a {
-    display: block;
-    color: #fff;
+.nav-link {
+    color: var(--color-white);
     text-decoration: none;
-    padding: 1em;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
 }
 
-nav a:hover {
-    background-color: #444;
+.nav-link:hover {
+    background-color: var(--color-secondary);
+    border-radius: 4px;
 }
 
 .hero {
-    background-image: linear-gradient(to bottom, #333, #555);
-    background-size: 100% 300px;
-    background-position: 0% 100%;
+    background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
     height: 300px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    color: #fff;
+    justify-content: center;
+    color: var(--color-white);
+    text-align: center;
 }
 
 .features {
     background-color: #f7f7f7;
-    padding: 2em;
+    padding: 2rem;
+    text-align: center;
 }
 
 .features ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 .features li {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
 .features i {
-    margin-right: 1em;
+    margin-right: 0.5rem;
+}
+
+.about {
+    padding: 2rem;
+    text-align: center;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 1rem;
     text-align: center;
-    clear: both;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+    .hero {
+        height: 200px;
+    }
 }
