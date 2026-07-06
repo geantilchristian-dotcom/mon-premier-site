@@ -26,14 +26,14 @@ a { color: var(--color-secondary); text-decoration: none; transition: var(--tran
 a:hover { color: var(--color-accent); }
 ul { list-style: none; }
 h1, h2, h3, h4 { color: var(--color-dark); line-height: 1.3; margin-bottom: 0.5rem; }
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2rem; text-align: center; margin-bottom: 2rem; position: relative; }
+h1 { font-size: 3rem; }
+h2 { font-size: 2.5rem; text-align: center; margin-bottom: 2.5rem; position: relative; }
 h2::after { content: ''; display: block; width: 60px; height: 3px; background: var(--color-secondary); margin: 0.5rem auto 0; border-radius: 2px; }
 p { margin-bottom: 1rem; color: var(--color-text-light); }
 .container { width: 90%; max-width: var(--max-width); margin: 0 auto; padding: 0 var(--spacing); }
 .section { padding: 5rem 0; }
 .section-alt { background: var(--color-light); }
-.btn { display: inline-block; padding: 0.85rem 1.75rem; border-radius: var(--radius); font-weight: 600; text-align: center; cursor: pointer; transition: var(--transition); border: 2px solid transparent; }
+.btn { display: inline-block; padding: 1rem 2rem; border-radius: var(--radius); font-weight: 600; text-align: center; cursor: pointer; transition: var(--transition); border: 2px solid transparent; }
 .btn-primary { background: var(--color-secondary); color: var(--color-white); border-color: var(--color-secondary); }
 .btn-primary:hover { background: var(--color-primary); border-color: var(--color-primary); color: var(--color-white); transform: translateY(-2px); box-shadow: var(--shadow-hover); }
 .btn-secondary { background: transparent; color: var(--color-secondary); border-color: var(--color-secondary); }
@@ -129,7 +129,7 @@ nav a:hover, nav a.active { background: var(--color-light); color: var(--color-s
 ======================================== */
 footer { background: var(--color-dark); color: var(--color-light); padding: 3rem 0 1.5rem; }
 .footer-grid { display: grid; grid-template-columns: 2fr repeat(3, 1fr); gap: 2rem; margin-bottom: 2rem; }
-.footer-brand p { color: #aaa; margin-top: 1rem; }
+.footer-brand p { color: rgba(255,255,255,0.7); margin-top: 1rem; }
 .footer-title { font-size: 1.1rem; margin-bottom: 1rem; color: var(--color-white); position: relative; padding-bottom: 0.5rem; }
 .footer-title::after { content: ''; position: absolute; bottom: 0; left: 0; width: 40px; height: 2px; background: var(--color-secondary); }
 footer ul li { margin-bottom: 0.5rem; }
