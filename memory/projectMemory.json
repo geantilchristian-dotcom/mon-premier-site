@@ -1,7 +1,7 @@
 {
   "projectName": "mon-premier-site",
   "framework": "unknown",
-  "lastUpdated": "2026-07-06T14:30:20.327Z",
+  "lastUpdated": "2026-07-06T14:31:21.427Z",
   "rules": [],
   "decisions": [
     {
@@ -82,6 +82,15 @@
       "agent": "frontend+uiux+devops",
       "summary": "Ceque je veux sur ce projet ouvert, mettez les produits dans leurs onglets pour éviter l'encombrement des textes sur la page d'accueil du site et envoyé directement sur github ,les onglets sont déjà créé alors il faut seulement les modifier",
       "filesChanged": []
+    },
+    {
+      "date": "2026-07-06T14:31:21.219Z",
+      "agent": "frontend",
+      "summary": "Surpime moi ce bouton : Catégories principales",
+      "filesChanged": [
+        "index.html",
+        "style.css"
+      ]
     }
   ]
 }
