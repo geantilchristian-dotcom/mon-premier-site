@@ -104,3 +104,32 @@ footer {
     text-align: center;
     clear: both;
 }
+
+/* Styles pour les boutons collapsibles */
+.collapsible-btn {
+    background-color: #f1f1f1;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.collapsible-btn:hover {
+    background-color: #ccc;
+}
+
+/* Contenu des sections collapsibles - visible par défaut */
+.collapsible-content {
+    padding: 0 18px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
