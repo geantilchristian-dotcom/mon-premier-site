@@ -1,0 +1,14 @@
+{
+  "projectName": "mon-premier-site",
+  "framework": "unknown",
+  "lastUpdated": "2026-07-06T14:10:29.364Z",
+  "rules": [],
+  "decisions": [
+    {
+      "date": "2026-07-06T14:10:28.893Z",
+      "agent": "backend+frontend",
+      "summary": "Améliorer le visuel de ce site",
+      "filesChanged": []
+    }
+  ]
+}
