@@ -66,29 +66,7 @@ header nav a {
     background-color: #444;
 }
 
-.categories {
-    padding: 20px;
-}
-
-.categories h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.categories ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.categories li {
-    margin-bottom: 10px;
-}
-
-.categories a {
-    text-decoration: none;
-    color: #333;
-}
+/* Les styles pour la section .categories ont été supprimés. */
 
 .produits {
     padding: 20px;
